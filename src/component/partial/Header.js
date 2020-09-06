@@ -63,32 +63,39 @@ class Header extends React.Component {
         <HeaderContainer>
           <Grid alignItems="center" hideFor={device.below.tabletLandscape}>
             <Grid.Col cols={3} textAlign="right">
-              <Logo>Mood</Logo>
+              <Logo>
+                <amp-img
+                  layout="fixed"
+                  width="150"
+                  height="41"
+                  src="/static/icons/logo_complete_blue.png"
+                />
+              </Logo>
             </Grid.Col>
             <Grid.Col cols={6}>
               <nav style={{padding: '0 12%'}}>
                 <NavGroup>
                   <NavItem>
-                    <Button.FakeLink>Tech</Button.FakeLink>
+                    {/* <Button.FakeLink>Tech</Button.FakeLink> */}
                   </NavItem>
                   <NavItem>
-                    <Button.FakeLink>Science</Button.FakeLink>
+                    {/* <Button.FakeLink>Science</Button.FakeLink> */}
                   </NavItem>
                   <NavItem>
-                    <Button.FakeLink>Culture</Button.FakeLink>
+                    {/* <Button.FakeLink>Culture</Button.FakeLink> */}
                   </NavItem>
                   <NavItem>
-                    <Button.FakeLink>Reviews</Button.FakeLink>
+                    {/* <Button.FakeLink>Reviews</Button.FakeLink> */}
                   </NavItem>
                   <NavItem>
-                    <Button.FakeLink>Videos</Button.FakeLink>
+                    {/* <Button.FakeLink>Videos</Button.FakeLink> */}
                   </NavItem>
                 </NavGroup>
               </nav>
             </Grid.Col>
             <Grid.Col cols={3}>
               <div style={{display: 'flex'}}>
-                <Button.FakeLink style={{display: 'block'}}>
+                {/* <Button.FakeLink style={{display: 'block'}}>
                   <HeaderButton>
                     <amp-img
                       layout="fixed"
@@ -107,7 +114,7 @@ class Header extends React.Component {
                       src="/static/icons/user.svg"
                     />
                   </HeaderButton>
-                </Button.FakeLink>
+                </Button.FakeLink> */}
               </div>
             </Grid.Col>
           </Grid>

@@ -175,8 +175,8 @@ class Spending extends React.Component {
               colsAtTabletLandscape={12}
               style={{marginTop: '60px'}}
             >
-              <Title style={{color: '#fff'}}>SPENDING</Title>
-              <Title>HABITS</Title>
+              <Title style={{color: '#fff'}}>FAÇA UM</Title>
+              <Title>ORÇAMENTO</Title>
             </Grid.Col>
             <Grid.Col cols={3} hideFor={device.below.tabletLandscape}>
               <Confetti
@@ -202,29 +202,34 @@ class Spending extends React.Component {
               <ParallaxAnimation id="ticketParallaxAnim" selector="#ticket" />
 
               <TicketItem>
-                <TicketTitle>Total Spending</TicketTitle>
-                <TicketSubtitle>each year in the US</TicketSubtitle>
-                <TicketCost>$600,000,000,000</TicketCost>
+                <TicketTitle>AMP</TicketTitle>
+                <TicketSubtitle>Páginas super rápidas</TicketSubtitle>
+                {/* <TicketCost>$600,000,000,000</TicketCost> */}
               </TicketItem>
               <TicketItem>
-                <TicketTitle>Total Spending</TicketTitle>
-                <TicketSubtitle>each year in the US</TicketSubtitle>
-                <TicketCost>$600,000,000,000</TicketCost>
+                <TicketTitle>SITES</TicketTitle>
+                <TicketSubtitle>De alta qualidade</TicketSubtitle>
+                {/* <TicketCost>$600,000,000,000</TicketCost> */}
               </TicketItem>
               <TicketItem>
-                <TicketTitle>Student Loan debt</TicketTitle>
-                <TicketSubtitle>Student loan debt in the US</TicketSubtitle>
-                <TicketCost>$1,000,000,000,000</TicketCost>
+                <TicketTitle>APLICATIVOS</TicketTitle>
+                <TicketSubtitle>
+                  Fique conectado com seus clientes à qualquer momento
+                </TicketSubtitle>
+                {/* <TicketCost>$1,000,000,000,000</TicketCost> */}
               </TicketItem>
               <TicketItem>
-                <TicketTitle>Average Yearly Income</TicketTitle>
-                <TicketSubtitle>before taxes</TicketSubtitle>
-                <TicketCost>$56,099</TicketCost>
+                <TicketTitle>OTIMIZAÇÃO</TicketTitle>
+                <TicketSubtitle>otimize suas tarefas</TicketSubtitle>
+                {/* <TicketCost>$56,099</TicketCost> */}
               </TicketItem>
               <TicketItem>
-                <TicketTitle>Yearly Expenditure</TicketTitle>
-                <TicketSubtitle>on average</TicketSubtitle>
-                <TicketCost>$47,112</TicketCost>
+                <TicketTitle>INTELIGÊNCIA ARTIFICIAL</TicketTitle>
+                <TicketSubtitle>
+                  Adicione tecnologias de IA a seus negócios e estratégias
+                  analíticas
+                </TicketSubtitle>
+                {/* <TicketCost>$47,112</TicketCost> */}
               </TicketItem>
             </Ticket>
 
@@ -240,7 +245,7 @@ class Spending extends React.Component {
             >
               <MobilePadding>
                 <Text.P style={{paddingTop: '80px', textAlign: 'left'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                   tortor justo, facilisis id lobortis ac, elementum et sem. Nam
                   quis turpis eget ipsum fermentum malesuada. Praesent ante
                   metus, dignissim ut ullamcorper vitae, lobortis in enim. Sed
@@ -252,7 +257,7 @@ class Spending extends React.Component {
                   egestas cursus neque quis cursus. Aenean non rhoncus turpis.
                   Integer nec mi consequat, tempor nisl sit amet, interdum
                   lectus. Vivamus consequat sapien quis mi sagittis congue. Sed
-                  mollis ut risus a faucibus.
+                  mollis ut risus a faucibus. */}
                 </Text.P>
               </MobilePadding>
             </Grid.Col>
@@ -264,13 +269,13 @@ class Spending extends React.Component {
             >
               <MobilePadding>
                 <Text.P style={{textAlign: 'left'}}>
-                  Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
+                  {/* Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
                   Cras lectus nisl, lobortis eget ipsum quis, mattis
                   sollicitudin lectus. Duis auctor ligula leo. Aliquam finibus
                   sed est nec ornare. Duis tincidunt nisi non facilisis lacinia.
                   Nam fermentum, enim non placerat euismod, magna massa commodo
                   dui, in convallis ipsum diam lobortis velit. Cras volutpat
-                  facilisis felis at volutpat.
+                  facilisis felis at volutpat. */}
                 </Text.P>
               </MobilePadding>
             </Grid.Col>

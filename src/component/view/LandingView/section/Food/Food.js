@@ -194,10 +194,8 @@ class Food extends React.Component {
             <Grid.Col cols={8} colsAtTabletLandscape={12}>
               <MobilePadding>
                 <Title color="white">
-                  THEY’RE
-                  <br /> CHANGING
-                  <br /> THE WAY
-                  <br /> THEY EAT
+                  NOSSA
+                  <br /> EQUIPE
                 </Title>
               </MobilePadding>
             </Grid.Col>
@@ -221,7 +219,7 @@ class Food extends React.Component {
               >
                 <SpacedContent f={4}>
                   <MobilePadding>
-                    <Text.P>
+                    {/* <Text.P>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Morbi tortor justo, facilisis id lobortis ac, elementum et
                       sem. Nam quis turpis eget ipsum fermentum malesuada.
@@ -245,9 +243,9 @@ class Food extends React.Component {
                       facilisis lacinia. Nam fermentum, enim non placerat
                       euismod, magna massa commodo dui, in convallis ipsum diam
                       lobortis velit. Cras volutpat facilisis felis at volutpat.
-                    </Text.P>
+                    </Text.P> */}
 
-                    <Box>
+                    {/* <Box>
                       <SpacedContent f={4} header footer>
                         <PaddedContent h={8}>
                           <AmpImage
@@ -288,7 +286,7 @@ class Food extends React.Component {
                           />
                         </PaddedContent>
                       </SpacedContent>
-                    </Box>
+                    </Box> */}
                     <Confetti
                       pieces={presets.basic}
                       color="white"
@@ -328,7 +326,7 @@ class Food extends React.Component {
                   colsAtTabletLandscape={12}
                   offsetAtTabletLandscape={0}
                 >
-                  <MobilePadding>
+                  {/* <MobilePadding>
                     <SpacedContent f={4}>
                       <CustomTitle>
                         They love
@@ -345,13 +343,13 @@ class Food extends React.Component {
                         volutpat.
                       </CustomP>
                     </SpacedContent>
-                  </MobilePadding>
+                  </MobilePadding> */}
                 </Grid.Col>
               </Grid>
 
               <LightboxLinks>
                 <LightboxLink
-                  title="Artisan Bread"
+                  title="PEDRO"
                   bgColor="bilobaFlower"
                   cardImgSrc="/static/food/bread_1@2x.png"
                   cardImgWidth="429"
@@ -369,7 +367,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="Hamburger"
+                  title="DANIEL"
                   bgColor="fountainBlue"
                   cardImgSrc="/static/food/burger@2x.png"
                   cardImgWidth="358"
@@ -387,7 +385,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="Tacos"
+                  title="LUIZ"
                   bgColor="magicMint"
                   cardImgSrc="/static/food/tacos@2x.png"
                   cardImgWidth="378"
@@ -405,7 +403,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="Sushis"
+                  title="MAYRON"
                   bgColor="vividTangerine"
                   cardImgSrc="/static/food/sushi@2x.png"
                   cardImgWidth="403"
@@ -423,7 +421,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="Avocado"
+                  title="GUSTAVO"
                   bgColor="macAndCheese"
                   cardImgSrc="/static/food/avocado@2x.png"
                   cardImgWidth="340"
@@ -441,7 +439,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="Roasted Coffee"
+                  title="PAULO"
                   bgColor="parisDaisy"
                   cardImgSrc="/static/food/coffee@2x.png"
                   cardImgWidth="368"

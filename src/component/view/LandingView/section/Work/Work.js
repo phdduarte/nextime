@@ -47,28 +47,13 @@ class Work extends React.Component {
             >
               <MobilePadding>
                 <Text.P>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  tortor justo, facilisis id lobortis ac, elementum et sem. Nam
-                  quis turpis eget ipsum fermentum malesuada. Praesent ante
-                  metus, dignissim ut ullamcorper vitae, lobortis in enim. Sed
-                  nec dapibus dui, eget lobortis enim. Suspendisse vehicula nunc
-                  ut ante consequat, at suscipit sapien volutpat. Donec sit amet
-                  ante ut tellus vulputate lobortis blandit mollis enim. Donec
-                  vel elit hendrerit, congue metus nec, sagittis nibh. Maecenas
-                  non tincidunt sapien, ac ullamcorper nulla. Pellentesque
-                  egestas cursus neque quis cursus. Aenean non rhoncus turpis.
-                  Integer nec mi consequat, tempor nisl sit amet, interdum
-                  lectus. Vivamus consequat sapien quis mi sagittis congue. Sed
-                  mollis ut risus a faucibus.
+                  Sua empresa ou você tem uma tarefa repetitiva que gasta muito
+                  do seu tempo? FALTA TEXTO
                 </Text.P>
                 <Text.P>
-                  Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
-                  Cras lectus nisl, lobortis eget ipsum quis, mattis
-                  sollicitudin lectus. Duis auctor ligula leo. Aliquam finibus
-                  sed est nec ornare. Duis tincidunt nisi non facilisis lacinia.
-                  Nam fermentum, enim non placerat euismod, magna massa commodo
-                  dui, in convallis ipsum diam lobortis velit. Cras volutpat
-                  facilisis felis at volutpat.
+                  Podemos tentar juntos e com a ajuda da inteligencia artificial
+                  criarmos uma otimização. FALTA TEXTO. Falar também que criamos
+                  aplicativos.
                 </Text.P>
               </MobilePadding>
             </Grid.Col>
@@ -84,10 +69,10 @@ class Work extends React.Component {
               offsetAtPhone={1}
             >
               <Text.Accent color="flushOrange" style={{paddingTop: '80px'}}>
-                71%
+                5 anos
               </Text.Accent>
               <Text color="flushOrange">
-                Expect and want to do an overseas assignment during their career
+                da nossa vida em média passamos na internet
               </Text>
             </Grid.Col>
             <ImageCol cols={3} colsAtTabletLandscape={6} colsAtPhone={12}>
@@ -113,18 +98,14 @@ class Work extends React.Component {
             >
               <MobilePadding>
                 <Text.P>
-                  Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
-                  Cras lectus nisl, lobortis eget ipsum quis, mattis
-                  sollicitudin lectus. Duis auctor ligula leo. Aliquam finibus
-                  sed est nec ornare. Duis tincidunt nisi non facilisis lacinia.
-                  Nam fermentum, enim non placerat euismod, magna massa commodo
-                  dui, in convallis ipsum diam lobortis velit. Cras volutpat
-                  facilisis felis at volutpat.
+                  “Em alguns anos vão existir dois tipos de empresas: As que
+                  fazem negócios pela internet e as que estão fora dos negócios”
+                  - Bill Gates.
                 </Text.P>
               </MobilePadding>
             </Grid.Col>
           </Grid>
-          <WorkAnimation />
+          {/* <WorkAnimation /> */}
         </Container>
       </WorkSection>
     );

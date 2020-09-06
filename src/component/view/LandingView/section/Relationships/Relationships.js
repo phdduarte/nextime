@@ -62,6 +62,13 @@ const CalloutImage = styled(AmpImage)`
     margin-top: 240px;
   `}
 `;
+const Title = styled(Text.Title)`
+  font-size: 120px;
+  ${device.below.tabletLandscape`
+    text-align: center;
+    font-size: 22vw;
+  `};
+`;
 
 class Relationships extends React.Component {
   render() {
@@ -93,12 +100,8 @@ class Relationships extends React.Component {
                       src="/static/relationships/woman-lying-down@2x.png"
                     />
                   </TitleCap>
-                  <AmpImage
-                    layout="responsive"
-                    width="536"
-                    height="522"
-                    src="/static/relationships/main-title@2x.png"
-                  />
+                  <Title style={{color: '#fff'}}>MARKETING</Title>
+                  <Title>DIGITAL</Title>
                 </MobilePadding>
 
                 <MobilePadding>
@@ -268,29 +271,15 @@ class Relationships extends React.Component {
                 <SpacedContent f={4}>
                   <MobilePadding style={{marginTop: '60px'}}>
                     <Text.P color="paprika">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi tortor justo, facilisis id lobortis ac, elementum et
-                      sem. Nam quis turpis eget ipsum fermentum malesuada.
-                      Praesent ante metus, dignissim ut ullamcorper vitae,
-                      lobortis in enim. Sed nec dapibus dui, eget lobortis enim.
-                      Suspendisse vehicula nunc ut ante consequat, at suscipit
-                      sapien volutpat. Donec sit amet ante ut tellus vulputate
-                      lobortis blandit mollis enim. Donec vel elit hendrerit,
-                      congue metus nec, sagittis nibh. Maecenas non tincidunt
-                      sapien, ac ullamcorper nulla. Pellentesque egestas cursus
-                      neque quis cursus. Aenean non rhoncus turpis. Integer nec
-                      mi consequat, tempor nisl sit amet, interdum lectus.
-                      Vivamus consequat sapien quis mi sagittis congue. Sed
-                      mollis ut risus a faucibus.
+                      Marketing Digital é o conjunto de atividades que uma
+                      empresa (ou pessoa) executa online com o objetivo de
+                      atrair novos negócios, criar relacionamentos e desenvolver
+                      uma identidade de marca. Dentre as suas principais
+                      estratégias estão o SEO, Inbound Marketing e o Marketing
+                      de Conteúdo.
                     </Text.P>
                     <Text.P color="paprika">
-                      Aenean pharetra convallis nisl, vel rhoncus lectus tempus
-                      a. Cras lectus nisl, lobortis eget ipsum quis, mattis
-                      sollicitudin lectus. Duis auctor ligula leo. Aliquam
-                      finibus sed est nec ornare. Duis tincidunt nisi non
-                      facilisis lacinia. Nam fermentum, enim non placerat
-                      euismod, magna massa commodo dui, in convallis ipsum diam
-                      lobortis velit. Cras volutpat facilisis felis at volutpat.
+                      Precisa de mais texto
                     </Text.P>
                   </MobilePadding>
                 </SpacedContent>

@@ -101,30 +101,16 @@ class MobileSidebar extends React.Component {
             <SidebarContent>
               <div>
                 <Item>
-                  <Link>Tech</Link>
-                  <Number>21</Number>
-                </Item>
-                <Item>
-                  <Link>Science</Link>
-                  <Number>18</Number>
-                </Item>
-                <Item>
-                  <Link>Culture</Link>
-                  <Number>34</Number>
-                </Item>
-                <Item>
-                  <Link>Reviews</Link>
-                  <Number>11</Number>
-                </Item>
-                <Item>
-                  <Link>Videos</Link>
-                  <Number>48</Number>
+                  <Link>
+                    <a href="https://wa.me/5531989217467?text=Eu%20tenho%20interesse%20na%20NexTime.">
+                      Contato
+                    </a>
+                  </Link>
                 </Item>
               </div>
               <Footer>
-                <strong>Mood</strong> is an online magazine that runs cover
-                stories—big, ambitious pieces intended to change the way you see
-                the world or influence the course of policy
+                <strong>NexTIME</strong> existe para ajudar a você a dedicar o
+                seu tempo ao que realmente importa.
               </Footer>
             </SidebarContent>
           </ContentContainer>

@@ -13,7 +13,16 @@ const LogoContainer = styled((props) => {
 
 class Logo extends React.Component {
   render() {
-    return <LogoContainer color={this.props.color}>Mood</LogoContainer>;
+    return (
+      <LogoContainer color={this.props.color}>
+        <amp-img
+          layout="fixed"
+          width="100"
+          height="27"
+          src="/static/icons/logo_complete_blue.png"
+        />
+      </LogoContainer>
+    );
   }
 }
 

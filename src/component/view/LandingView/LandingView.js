@@ -28,11 +28,11 @@ class LandingView extends React.Component {
         <Work />
         <Spending />
         <Relationships />
-        <Sleep />
+        {/* <Sleep /> */}
         <Food />
         <Comments />
         <Footer />
-        <FloatingButtons />
+        {/* <FloatingButtons /> */}
       </Wrapper>
     );
   }
