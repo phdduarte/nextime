@@ -349,7 +349,7 @@ class Food extends React.Component {
 
               <LightboxLinks>
                 <LightboxLink
-                  title="PEDRO DUARTE"
+                  title="PEDRO"
                   bgColor="bilobaFlower"
                   cardImgSrc="/static/food/bread_1@2x.png"
                   cardImgWidth="429"
@@ -367,7 +367,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="DANIEL RODRIGUES"
+                  title="DANIEL"
                   bgColor="fountainBlue"
                   cardImgSrc="/static/food/burger@2x.png"
                   cardImgWidth="358"
@@ -385,7 +385,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="LUIZ Walber"
+                  title="LUIZ"
                   bgColor="magicMint"
                   cardImgSrc="/static/food/tacos@2x.png"
                   cardImgWidth="378"
@@ -421,7 +421,7 @@ class Food extends React.Component {
                 </LightboxLink>
 
                 <LightboxLink
-                  title="GUSTAVO BRIOCHE"
+                  title="GUSTAVO"
                   bgColor="macAndCheese"
                   cardImgSrc="/static/food/avocado@2x.png"
                   cardImgWidth="340"

@@ -193,9 +193,9 @@ class Comments extends React.Component {
                 offsetAtTabletLandscape={0}
               >
                 <Header>
-                  <div>WHAT</div>
+                  <div>NOSSAS</div>
                   <div style={{display: 'inline-block', position: 'relative'}}>
-                    OTHERS
+                    REDES
                     <GuyImage id="guy_alone">
                       <AmpImage
                         src="/static/comments/guy_alone@2x.png"
@@ -205,7 +205,7 @@ class Comments extends React.Component {
                       />
                     </GuyImage>
                   </div>
-                  <div>ARE SAYING</div>
+                  <div>SOCIAIS</div>
                   <TitleConfetti pieces={presets.basic} color="white" />
                 </Header>
                 <CommentAccordian>
