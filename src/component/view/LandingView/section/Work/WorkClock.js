@@ -72,7 +72,10 @@ class WorkClock extends React.Component {
   render() {
     return (
       <ClockContainer>
-        <Letter>W</Letter>
+        <Letter>T</Letter>
+        <Letter>E</Letter>
+        <Letter>M</Letter>
+        <Letter>P</Letter>
         <Clock>
           <ClockBackground />
           <Hidable hideFor={device.below.tabletLandscape}>
@@ -85,8 +88,6 @@ class WorkClock extends React.Component {
             <Hand.Minute id="mobile-minute-hand" />
           </Hidable>
         </Clock>
-        <Letter>R</Letter>
-        <Letter>K</Letter>
 
         {/* Desktop Hour hand */}
         <PositionObserver

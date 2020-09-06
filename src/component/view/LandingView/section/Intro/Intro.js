@@ -210,7 +210,7 @@ class Intro extends React.Component {
         </Container>
         <Container style={{marginTop: '130px', position: 'relative'}}>
           <Content>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
               tortor justo, facilisis id lobortis ac, elementum et sem. Nam quis
               turpis eget ipsum fermentum malesuada. Praesent ante metus,
@@ -231,7 +231,7 @@ class Intro extends React.Component {
               tincidunt nisi non facilisis lacinia. Nam fermentum, enim non
               placerat euismod, magna massa commodo dui, in convallis ipsum diam
               lobortis velit. Cras volutpat facilisis felis at volutpat.
-            </p>
+            </p> */}
           </Content>
           <Hidable hideFor={device.below.tabletLandscape}>
             <Confetti
