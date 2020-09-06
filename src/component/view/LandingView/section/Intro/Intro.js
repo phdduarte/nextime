@@ -160,9 +160,12 @@ class Intro extends React.Component {
                   ],
                 }}
               />
-              The generation that’s criticized in the media daily. But this
-              generation are changing the status quo that previous generations
-              swore by.
+              Procuramos todo dia fazer algo que possa devolver as pessoas o seu
+              bem mais precioso, o TEMPO. Acreditamos que pensando diferente
+              conseguimos utilizar esse recurso finito de uma melhor forma. O
+              mais interessante é que temos diferentes maneiras para conseguir
+              devolver o tempo as pessoas e uma delas é utilizarmos a
+              tecnologia.
             </Callout>
           </CalloutContainer>
           <div style={{position: 'relative'}}>
@@ -186,17 +189,17 @@ class Intro extends React.Component {
           </div>
           <Definition>
             <Text size="22px" height="25px">
-              Definition
+              O que
             </Text>
             <DefBig size="120px">
-              25-35
-              <br />
-              yrs old
+              somos?
+              {/* <br />
+              yrs old */}
             </DefBig>
             <DefSmall height="19px">
-              Anyone born between
+              {/* Anyone born between
               <br />
-              1980 and 1994
+              1980 and 1994 */}
             </DefSmall>
             <Confetti
               color="white"
@@ -304,7 +307,7 @@ class Intro extends React.Component {
             />
           </Hidable>
         </Container>
-        <Graph />
+        {/* <Graph /> */}
       </IntroSection>
     );
   }

@@ -243,9 +243,9 @@ class Education extends React.Component {
                       />
                     </MainCircle>
                     <Title id="eduTitle">
-                      EDU-
+                      Criamos paginas
                       <br />
-                      CATION
+                      com AMP
                     </Title>
                   </Intro>
                 </PerspectiveWrapper>
@@ -549,29 +549,35 @@ class Education extends React.Component {
               >
                 <ContentWrapper>
                   <Text.P>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi tortor justo, facilisis id lobortis ac, elementum et
-                    sem. Nam quis turpis eget ipsum fermentum malesuada.
-                    Praesent ante metus, dignissim ut ullamcorper vitae,
-                    lobortis in enim. Sed nec dapibus dui, eget lobortis enim.
-                    Suspendisse vehicula nunc ut ante consequat, at suscipit
-                    sapien volutpat. Donec sit amet ante ut tellus vulputate
-                    lobortis blandit mollis enim. Donec vel elit hendrerit,
-                    congue metus nec, sagittis nibh. Maecenas non tincidunt
-                    sapien, ac ullamcorper nulla. Pellentesque egestas cursus
-                    neque quis cursus. Aenean non rhoncus turpis. Integer nec mi
-                    consequat, tempor nisl sit amet, interdum lectus. Vivamus
-                    consequat sapien quis mi sagittis congue. Sed mollis ut
-                    risus a faucibus.
+                    AMP são páginas otimizadas para um carregamento simplificado
+                    e quase instantâneo.
                   </Text.P>
                   <Text.P>
-                    Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
-                    Cras lectus nisl, lobortis eget ipsum quis, mattis
-                    sollicitudin lectus. Duis auctor ligula leo. Aliquam finibus
-                    sed est nec ornare. Duis tincidunt nisi non facilisis
-                    lacinia. Nam fermentum, enim non placerat euismod, magna
-                    massa commodo dui, in convallis ipsum diam lobortis velit.
-                    Cras volutpat facilisis felis at volutpat.
+                    Sabe porque o Google gosta tanto do AMP? Quando você faz uma
+                    pesquisa ele tenta entregar a melhor experiência para o
+                    usuário, ou seja, a melhor página daquilo que você está
+                    procurando! Se ele te entrega uma página que demora a
+                    carregar, eu tenho certeza absoluta que você vai tentar
+                    abrir, desistir, voltar para pesquisa e ainda xingar o
+                    Google!
+                  </Text.P>
+                  <Text.P>
+                    E é graças a essas otimizações e milhares de outras
+                    tecnologias que o Google te oferece essa experiência
+                    incrível de busca, e é sem dúvida o buscador mais popular da
+                    internet!
+                  </Text.P>
+                  <Text.P>
+                    De acordo com o maior buscador do mundo, a velocidade de seu
+                    site é um dos principais fatores levados em consideração
+                    para o rankeamento nos resultados de busca. As pessoas têm
+                    um curto espaço de atenção on-line e esperam resultados
+                    rápidos. Elas querem sites carregados rapidamente e sem
+                    problemas. Pesquisas realizadas pelo Google indicam que os
+                    usuários da Internet esperam que os sites sejam carregados
+                    em menos de três segundos. Se os sites demoram mais do que
+                    isso, é bem provável que o usuário procure algum
+                    concorrente.
                   </Text.P>
                 </ContentWrapper>
               </ContentGridCol>
@@ -584,10 +590,10 @@ class Education extends React.Component {
                 <MobilePadding
                   style={{marginBottom: '120px', maxWidth: '220px'}}
                 >
-                  <Text.Accent color="rose">39%</Text.Accent>
+                  <Text.Accent color="rose">50%</Text.Accent>
                   <Text color="rose">
-                    % of those aged between 21 and 36 who have completed at
-                    least a bachelor's degree
+                    dos visitantes simplesmente vão embora caso o site demore
+                    mais de 03 segundos para carregar
                   </Text>
                 </MobilePadding>
                 <MobileFloatRight>
@@ -615,7 +621,7 @@ class Education extends React.Component {
               >
                 <MobilePadding>
                   <Text.Accent color="rose">
-                    Women are 4x more likely to have a bachelor’s degree.
+                    Sites brasileiros levam em média 10 segundos para carregar.
                   </Text.Accent>
                 </MobilePadding>
               </Grid.Col>
@@ -636,29 +642,16 @@ class Education extends React.Component {
               <ContentGridCol cols={4} colsAtTabletLandscape={12}>
                 <MobilePadding>
                   <Text.P style={{paddingTop: '35px'}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi tortor justo, facilisis id lobortis ac, elementum et
-                    sem. Nam quis turpis eget ipsum fermentum malesuada.
-                    Praesent ante metus, dignissim ut ullamcorper vitae,
-                    lobortis in enim. Sed nec dapibus dui, eget lobortis enim.
-                    Suspendisse vehicula nunc ut ante consequat, at suscipit
-                    sapien volutpat. Donec sit amet ante ut tellus vulputate
-                    lobortis blandit mollis enim. Donec vel elit hendrerit,
-                    congue metus nec, sagittis nibh. Maecenas non tincidunt
-                    sapien, ac ullamcorper nulla. Pellentesque egestas cursus
-                    neque quis cursus. Aenean non rhoncus turpis. Integer nec mi
-                    consequat, tempor nisl sit amet, interdum lectus. Vivamus
-                    consequat sapien quis mi sagittis congue. Sed mollis ut
-                    risus a faucibus.
+                    O robô ou (crawler) do Google leva mais tempo para indexar
+                    sites lentos. Para quem não sabe um crawler ou podemos
+                    chamar também de aranhas, é um programa de computador que
+                    navega pela internet anexando informações.
                   </Text.P>
                   <Text.P>
-                    Aenean pharetra convallis nisl, vel rhoncus lectus tempus a.
-                    Cras lectus nisl, lobortis eget ipsum quis, mattis
-                    sollicitudin lectus. Duis auctor ligula leo. Aliquam finibus
-                    sed est nec ornare. Duis tincidunt nisi non facilisis
-                    lacinia. Nam fermentum, enim non placerat euismod, magna
-                    massa commodo dui, in convallis ipsum diam lobortis velit.
-                    Cras volutpat facilisis felis at volutpat.
+                    Se demorar para fazer essa indexação, prejudica o número de
+                    páginas indexadas pelo buscador e pode ter certeza que isso
+                    não é uma boa estratégia, ainda mais se você editar ou
+                    adicionar novos conteúdos regularmente.
                   </Text.P>
                 </MobilePadding>
               </ContentGridCol>
@@ -725,8 +718,7 @@ render() {
                     color="rose"
                     style={{position: 'relative', zIndex: '11'}}
                   >
-                    But millennials are turning to the internet in order to
-                    learn new skills and change careers.
+                    Faça um orçamento de uma página super rápida com a gente.
                   </Text.AccentSmall>
                 </MobilePadding>
 
@@ -743,7 +735,7 @@ render() {
                     weight="300"
                     height="24px"
                   >
-                    Class 24
+                    Com AMP
                   </Text>
                   <Text
                     color="webOrange"
@@ -751,7 +743,7 @@ render() {
                     height="42px"
                     weight="400"
                   >
-                    Congratulations
+                    você melhora
                   </Text>
                   <Text
                     color="webOrange"
@@ -760,7 +752,7 @@ render() {
                     weight="400"
                     style={{marginBottom: '35px'}}
                   >
-                    You've graduated
+                    o desempenho de sites
                   </Text>
                 </WindowHover4>
               </Grid.Col>
@@ -769,9 +761,9 @@ render() {
             <VideoWindowWrapper>
               <VideoWindow1 title="Learn AMP by Example" width="225px">
                 <Text size="12px" height="14px" weight="400">
-                  A hands-on introduction to Accelerated Mobile Pages (AMP)
-                  focusing on code and live samples. Learn how to create AMP
-                  pages and see examples for all AMP components.
+                  Uma introdução prática ao Accelerated Mobile Pages (AMP) foco
+                  foco em código e amostras ao vivo. Aprenda a criar AMP páginas
+                  páginas e veja exemplos de todos os componentes AMP.
                 </Text>
                 <amp-youtube
                   style={{marginTop: '25px'}}
@@ -782,10 +774,11 @@ render() {
                 />
                 <Break />
                 <Text size="12px" height="14px" weight="bold">
-                  Introduction
+                  Introdução
                 </Text>
                 <Text size="12px" height="14px" weight="400">
-                  Get started with AMP and learn how to build your first AMP pa
+                  Dê os primeiros passos com AMP e aprenda a criar seu primeiro
+                  AMP pa
                 </Text>
               </VideoWindow1>
               <VideoWindow2 title="Get started with AMP" width="568px">
@@ -803,15 +796,14 @@ render() {
                     weight="400"
                     style={{marginBottom: '15px'}}
                   >
-                    Course 3: Prepare your AMP page for discovery and
-                    distribution
+                    Prepare sua página AMP para descoberta e distribuição
                   </Text>
                   <Text size="12px" height="14px" weight="400">
-                    In some cases, you might want to have both a non-AMP and an
-                    AMP version of the same page, for example, a news article.
-                    Consider this: If Google Search finds the non-AMP version of
-                    that page, how does it know there’s a "paired" AMP version
-                    of it?
+                    Em alguns casos, você pode querer ter uma página não AMP e
+                    um Versão AMP da mesma página, por exemplo, um artigo de
+                    notícias. Considere o seguinte: se a Pesquisa Google
+                    encontrar a versão não AMP de essa página, como ela sabe que
+                    há uma versão AMP "emparelhada" disso?
                   </Text>
                 </div>
               </VideoWindow2>
