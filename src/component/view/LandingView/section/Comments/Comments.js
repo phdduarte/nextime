@@ -211,8 +211,8 @@ class Comments extends React.Component {
                 <CommentAccordian>
                   <Comment expanded>
                     <CommentSectionHeader
-                      title="On YouTube"
-                      label="Latest youtube video about Millennials"
+                      title="PHD do AMP"
+                      label="Clique e veja um vídeo do canal"
                       icon={
                         <div>
                           <Confetti
@@ -234,11 +234,11 @@ class Comments extends React.Component {
                         layout="responsive"
                         width="16"
                         height="9"
-                        data-videoid="kaCQ-giZOxg"
+                        data-videoid="-TqTAxrOxaM"
                       />
                     </CommentContent>
                   </Comment>
-                  <Comment>
+                  {/* <Comment>
                     <CommentSectionHeader
                       title="On Twitter"
                       label={
@@ -304,11 +304,11 @@ class Comments extends React.Component {
                         </Grid.Col>
                       </Grid>
                     </CommentContent>
-                  </Comment>
+                  </Comment> */}
                   <Comment>
                     <CommentSectionHeader
-                      title="On Instagram"
-                      label="Expand to see some instagram post"
+                      title="No Instagram"
+                      label="Clique e veja alguns posts do instagram"
                       icon={
                         <div>
                           <Confetti
@@ -334,7 +334,7 @@ class Comments extends React.Component {
                       <Grid>
                         <Grid.Col cols={6} colsAtTabletPortrait={12}>
                           <amp-instagram
-                            data-shortcode="BqpiGv-n-ci"
+                            data-shortcode="CEcc8WwA8SC"
                             width="1"
                             height="1"
                             layout="responsive"
@@ -342,7 +342,7 @@ class Comments extends React.Component {
                         </Grid.Col>
                         <Grid.Col cols={6} colsAtTabletPortrait={12}>
                           <amp-instagram
-                            data-shortcode="BqnAOdnhE0k"
+                            data-shortcode="CEwsvE8DjkC"
                             width="1"
                             height="1"
                             layout="responsive"
@@ -350,7 +350,7 @@ class Comments extends React.Component {
                         </Grid.Col>
                         <Grid.Col cols={6} colsAtTabletPortrait={12}>
                           <amp-instagram
-                            data-shortcode="Bmvokc2AwaU"
+                            data-shortcode="CEprMGGDpI7"
                             width="1"
                             height="1"
                             layout="responsive"
@@ -358,7 +358,7 @@ class Comments extends React.Component {
                         </Grid.Col>
                         <Grid.Col cols={6} colsAtTabletPortrait={12}>
                           <amp-instagram
-                            data-shortcode="BhpWgCjhSgi"
+                            data-shortcode="CEhRpz1pF-Z"
                             width="1"
                             height="1"
                             layout="responsive"
