@@ -189,7 +189,7 @@ class Intro extends React.Component {
           </div>
           <Definition>
             <Text size="22px" height="25px">
-              O que
+              Quem
             </Text>
             <DefBig size="120px">
               somos?

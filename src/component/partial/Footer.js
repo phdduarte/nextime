@@ -20,17 +20,17 @@ class Footer extends React.Component {
       <FooterContainer>
         <SpacedContent f={4}>
           <div>
-            <div>
+            {/* <div>
               <Faded>Article written by</Faded> AMP Team
+            </div> */}
+            <div>
+              <Faded>Design</Faded> AMP Team
             </div>
             <div>
-              <Faded>Design by</Faded> AMP Team
-            </div>
-            <div>
-              <Faded>Illustrations by</Faded> AMP Team
+              <Faded>Illustrations</Faded> AMP Team
             </div>
           </div>
-          <div>
+          {/* <div>
             <div>
               <Faded>Statistics from</Faded>
             </div>
@@ -39,13 +39,13 @@ class Footer extends React.Component {
             <div>National Centre for Education</div>
             <div>YFSMagazine</div>
             <div>…</div>
-          </div>
+          </div> */}
           <div>
             <div>
-              <Faded>Powered by</Faded> AMP
+              <Faded>Powered by</Faded> NeXTIME
             </div>
             <div>
-              <Faded>AMP © Copyright 2018</Faded>
+              <Faded>NeXTIME © Copyright 2020</Faded>
             </div>
           </div>
         </SpacedContent>
