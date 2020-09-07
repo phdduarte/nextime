@@ -73,7 +73,7 @@ const Title = styled(Text.Title)`
 class Relationships extends React.Component {
   render() {
     return (
-      <RelationshipsSection>
+      <RelationshipsSection id="marketingDigital">
         <SleepBackground />
         <Container>
           <SpacedContent f={12} style={{position: 'relative', zIndex: '2'}}>
@@ -279,7 +279,47 @@ class Relationships extends React.Component {
                       de Conteúdo.
                     </Text.P>
                     <Text.P color="paprika">
-                      Precisa de mais texto
+                      Existem centenas de ferramentas desse nicho, no entanto,
+                      nem todas são adequadas às diversas empresas e sectores. A
+                      chave para o sucesso é a combinação do marketing
+                      tradicional com as novas ferramentas online, para
+                      desenvolver uma plano de e-marketing que se ajuste às
+                      necessidades e características de cada empresa.
+                    </Text.P>
+                    <Text.P color="paprika">
+                      O Marketing viral é também conhecido como palavra
+                      electrónico ou “word of mouse” o equivalente no digital ao
+                      word of mouth do marketing tradicional, é uma estratégia
+                      que permite propagar mensagens comerciais a um ritmo
+                      exponencial. Normalmente designada de comunicação
+                      comercial autopropagada. Um exemplo clássico de um caso de
+                      sucesso de viral marketing é o Hotmail. Um dos primeiros
+                      serviços gratuitos de web-mail que devido à simples frase
+                      que surgia em cada mensagem que cada utilizador enviava
+                      “Get your free and private e-mail at" nos primeiros seis
+                      meses após o seu lançamento atingiu um milhão de
+                      utilizadores e ao fim de um ano e meio 12 milhões de
+                      utilizadores, altura em que foi vendido à Microsoft por
+                      cerca de 400 milhões de dólares. A promoção do filme The
+                      Blair Witch Project é outro caso de sucesso de viral
+                      marketing, um filme com um orçamento extremamente reduzido
+                      que foi um dos filmes mais rentáveis e mais vistos de
+                      sempre, devido à divulgação online, sugerindo que o filme
+                      (de terror) era um documentário (retratando eventos reais)
+                      e à propagação exponencial dessa mensagem.
+                    </Text.P>
+                    <Text.P color="paprika">
+                      O SEO nada mais é do que a otimização de uma página (ou
+                      até do site inteiro) para ser melhor compreendido pelas
+                      ferramentas de busca. A conseqüência da utilização das
+                      técnicas de SEO é o melhor posicionamento de um site em
+                      uma página de resultados de uma busca. Por exemplo, ao
+                      pesquisar no Google por “Marketing de Busca”, o primeiro
+                      resultado é este site. O SEO é uma prática sem garantias,
+                      ou seja, nenhuma empresa ou pessoa pode garantir que seu
+                      site fique em primeiro em uma busca, pois o único capaz
+                      disto seria o próprio site de busca como o Google ou o
+                      Yahoo.
                     </Text.P>
                   </MobilePadding>
                 </SpacedContent>
@@ -392,28 +432,24 @@ class Relationships extends React.Component {
               >
                 <MobilePadding>
                   <div style={{maxWidth: '320px'}}>
-                    <Accent color="white">21%</Accent>
+                    <Accent color="white">3h30</Accent>
                     <Text style={{marginTop: '15px'}}>
-                      millennials who are married or in relationships met their
-                      partner online, according to Avvo.
+                      O brasileiro está entre os dois primeiros no ranking da
+                      população que fica mais tempo nas redes sociais, sendo em
+                      média mais de 3h30 por dia.
                     </Text>
                   </div>
                   <div style={{margin: '150px 0 0 0'}}>
                     <Text.P color="paprika">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi tortor justo, facilisis id lobortis ac, elementum et
-                      sem. Nam quis turpis eget ipsum fermentum malesuada.
-                      Praesent ante metus, dignissim ut ullamcorper vitae,
-                      lobortis in enim. Sed nec dapibus dui, eget lobortis enim.
-                      Suspendisse vehicula nunc ut ante consequat, at suscipit
-                      sapien volutpat. Donec sit amet ante ut tellus vulputate
-                      lobortis blandit mollis enim. Donec vel elit hendrerit,
-                      congue metus nec, sagittis nibh. Maecenas non tincidunt
-                      sapien, ac ullamcorper nulla. Pellentesque egestas cursus
-                      neque quis cursus. Aenean non rhoncus turpis. Integer nec
-                      mi consequat, tempor nisl sit amet, interdum lectus.
-                      Vivamus consequat sapien quis mi sagittis congue. Sed
-                      mollis ut risus a faucibus.
+                      Da busca por referências à selfie lacradora, a juventude
+                      brasileira escolheu o Instagram como a rede social do
+                      momento. De acordo com um levantamento realizado pela
+                      Cuponation, jovens de classe média, entre 17 e 25 anos,
+                      passam em média 1h e 32 minutos conectados à rede social
+                      por dia.
+                    </Text.P>
+                    <Text.P color="paprika">
+                      Podemos te ajudar nessa rede social do momento.
                     </Text.P>
                   </div>
                 </MobilePadding>

@@ -242,7 +242,7 @@ class Education extends React.Component {
                         style={{bottom: 0, left: '33%'}}
                       />
                     </MainCircle>
-                    <Title id="eduTitle">
+                    <Title id="amp">
                       Criamos paginas
                       <br />
                       com AMP
@@ -718,7 +718,12 @@ render() {
                     color="rose"
                     style={{position: 'relative', zIndex: '11'}}
                   >
-                    Faça um orçamento de uma página super rápida com a gente.
+                    <a
+                      style={{textDecoration: 'underline'}}
+                      href="https://wa.me/5531989217467?text=Eu%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20uma%20AMP%20com%20a%20NexTime."
+                    >
+                      Faça um orçamento de uma página super rápida com a gente.
+                    </a>
                   </Text.AccentSmall>
                 </MobilePadding>
 

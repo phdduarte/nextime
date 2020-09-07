@@ -26,7 +26,7 @@ const ImageCol = styled(Grid.Col)`
 class Work extends React.Component {
   render() {
     return (
-      <WorkSection>
+      <WorkSection id="otimizacao">
         <Container>
           <WorkGrid>
             <Grid.Col
@@ -47,13 +47,33 @@ class Work extends React.Component {
             >
               <MobilePadding>
                 <Text.P>
-                  Sua empresa ou você tem uma tarefa repetitiva que gasta muito
-                  do seu tempo? FALTA TEXTO
+                  Seu negócio ou você tem uma tarefa repetitiva que gasta muito
+                  do seu tempo?
                 </Text.P>
                 <Text.P>
-                  Podemos tentar juntos e com a ajuda da inteligencia artificial
-                  criarmos uma otimização. FALTA TEXTO. Falar também que criamos
-                  aplicativos.
+                  Podemos juntos e com a ajuda da inteligência artificial
+                  criarmos uma otimização.
+                </Text.P>
+                <Text.P>
+                  Quando processos repetitivos são automatizados o número de
+                  falhas diminui.
+                </Text.P>
+                <Text.P>
+                  Estamos aqui também para ajudar as pequenas empresas ou sua
+                  ideia sair do papel.
+                </Text.P>
+                <Text.P>
+                  O importante é que você foque sua energia no que você faz
+                  melhor e delegue as outras tarefas tanto para nossa equipe ou
+                  nossa inteligência artificial.
+                </Text.P>
+                <Text.P>
+                  <a
+                    style={{textDecoration: 'underline'}}
+                    href="https://wa.me/5531989217467?text=Eu%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20otimização%20com%20a%20NexTime."
+                  >
+                    Faça um orçamento de otimização com a gente.
+                  </a>
                 </Text.P>
               </MobilePadding>
             </Grid.Col>
@@ -101,6 +121,16 @@ class Work extends React.Component {
                   “Em alguns anos vão existir dois tipos de empresas: As que
                   fazem negócios pela internet e as que estão fora dos negócios”
                   - Bill Gates.
+                </Text.P>
+                <Text.P>
+                  “Inventamos uma montanha de consumo supérfluo, e é preciso
+                  jogar fora e viver comprando e jogando fora. E o que estamos
+                  gastando é tempo de vida. Porque quando eu compro algo, ou
+                  você, não compramos com dinheiro, compramos com o tempo de
+                  vida que tivemos de gastar para ter esse dinheiro. Mas com
+                  esta diferença: a única coisa que não se pode comprar é a
+                  vida. A vida se gasta. E é miserável gastar a vida para perder
+                  liberdade.” - José Mujica.
                 </Text.P>
               </MobilePadding>
             </Grid.Col>

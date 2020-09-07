@@ -166,7 +166,7 @@ class Callout extends React.Component {
 class Food extends React.Component {
   render() {
     return (
-      <FoodSection>
+      <FoodSection id="equipe">
         <RobotArm
           layout="fixed"
           width="1043"
@@ -380,7 +380,7 @@ class Food extends React.Component {
                   cardImgWidth="441"
                   cardImgHeight="622"
                 >
-                  CPO (Chief Product Officer)  <br />
+                  CPO (Chief Product Officer) <br />
                   Graduado em ciência da computação pela Universidade Federal de
                   Ouro Preto (UFOP). Fui tesoureiro do centro acadêmico de meu
                   curso e exerci a função de Product Owner no laboratório
@@ -405,15 +405,8 @@ class Food extends React.Component {
                   cardImgHeight="622"
                 >
                   CTO (Chief Technology Officer) <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  tortor justo, facilisis id lobortis ac, elementum et sem. Nam
-                  quis turpis eget ipsum fermentum malesuada. Praesent ante
-                  metus, dignissim ut ullamcorper vitae, lobortis in enim. Sed
-                  nec dapibus dui, eget lobortis enim. Suspendisse vehicula nunc
-                  ut ante consequat, at suscipit sapien volutpat. Donec sit amet
-                  ante ut tellus vulputate lobortis blandit mollis enim. Dat
-                  euismod, magna massa commodo dui, in convallis ipsum diam
-                  lobortis velit. Cras volutpat facilisis felis at volutpat.
+                  Desenvolvedor full stack focado em arquitetura de softwares e
+                  programação mobile em flutter
                 </LightboxLink>
 
                 {/* <LightboxLink

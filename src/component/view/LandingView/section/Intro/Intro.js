@@ -187,7 +187,7 @@ class Intro extends React.Component {
               />
             </div>
           </div>
-          <Definition>
+          <Definition id="quemSomos">
             <Text size="22px" height="25px">
               Quem
             </Text>
@@ -210,28 +210,38 @@ class Intro extends React.Component {
         </Container>
         <Container style={{marginTop: '130px', position: 'relative'}}>
           <Content>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              tortor justo, facilisis id lobortis ac, elementum et sem. Nam quis
-              turpis eget ipsum fermentum malesuada. Praesent ante metus,
-              dignissim ut ullamcorper vitae, lobortis in enim. Sed nec dapibus
-              dui, eget lobortis enim. Suspendisse vehicula nunc ut ante
-              consequat, at suscipit sapien volutpat. Donec sit amet ante ut
-              tellus vulputate lobortis blandit mollis enim. Donec vel elit
-              hendrerit, congue metus nec, sagittis nibh. Maecenas non tincidunt
-              sapien, ac ullamcorper nulla. Pellentesque egestas cursus neque
-              quis cursus. Aenean non rhoncus turpis. Integer nec mi consequat,
-              tempor nisl sit amet, interdum lectus. Vivamus consequat sapien
-              quis mi sagittis congue. Sed mollis ut risus a faucibus.
+            <p>
+              Somos inovadores, apaixonados por tecnologia e o que ela pode
+              proporcionar às pessoas. Acreditamos que soluções por meio de
+              aplicações mobile e web com auxílio da inteligência artificial
+              podem levar às pessoas o que elas mais precisam, TEMPO.
             </p>
             <p>
-              Aenean pharetra convallis nisl, vel rhoncus lectus tempus a. Cras
-              lectus nisl, lobortis eget ipsum quis, mattis sollicitudin lectus.
-              Duis auctor ligula leo. Aliquam finibus sed est nec ornare. Duis
-              tincidunt nisi non facilisis lacinia. Nam fermentum, enim non
-              placerat euismod, magna massa commodo dui, in convallis ipsum diam
-              lobortis velit. Cras volutpat facilisis felis at volutpat.
-            </p> */}
+              Necessitamos de mais tempo para fazer aquela viagem que sempre
+              sonhamos, ficarmos com os nossos filhos, aproveitar nossos amigos
+              e curtir a vida da melhor maneira.
+            </p>
+            <p>
+              Contamos com especialistas no desenvolvimento de sistema web
+              utilizando as ferramentas mais modernas como REACTJS e AMP.
+            </p>
+            <p>
+              Oferecemos a solução completa para que você fique conectado com
+              seus clientes à qualquer momento , desde a criação do app até a
+              publicação no Google Play e APP Store.
+            </p>
+            <p>
+              Adicionamos tecnologias de Inteligência Artificial e estratégias
+              analíticas para o seu negócios .
+            </p>
+            <p>Temos a missão de darmos mais tempo para as pessoas.</p>
+            <p>
+              Utilizamos o que for mais acessível na tecnologia para atingir
+              nossa missão de otimizar tarefas e assim entregarmos para mais
+              negócios e pessoas, tempo.
+            </p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
           </Content>
           <Hidable hideFor={device.below.tabletLandscape}>
             <Confetti
