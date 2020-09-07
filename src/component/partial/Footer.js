@@ -24,10 +24,10 @@ class Footer extends React.Component {
               <Faded>Article written by</Faded> AMP Team
             </div> */}
             <div>
-              <Faded>Design base</Faded> AMP Team
+              <Faded>Design</Faded> AMP Team
             </div>
             <div>
-              <Faded>Illustrations base</Faded> AMP Team
+              <Faded>Illustrations</Faded> AMP Team
             </div>
           </div>
           {/* <div>
