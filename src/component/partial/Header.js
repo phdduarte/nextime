@@ -76,19 +76,36 @@ class Header extends React.Component {
               <nav style={{padding: '0 12%'}}>
                 <NavGroup>
                   <NavItem>
-                    {/* <Button.FakeLink>Tech</Button.FakeLink> */}
+                    <Button.FakeLink>
+                      <a href="#quemSomos">Quem Somos</a>
+                    </Button.FakeLink>
                   </NavItem>
                   <NavItem>
-                    {/* <Button.FakeLink>Science</Button.FakeLink> */}
+                    <Button.FakeLink>
+                      <a href="#amp">AMP</a>
+                    </Button.FakeLink>
                   </NavItem>
                   <NavItem>
-                    {/* <Button.FakeLink>Culture</Button.FakeLink> */}
+                    <Button.FakeLink>
+                      <a href="#otimizacao">Otimização</a>
+                    </Button.FakeLink>
                   </NavItem>
                   <NavItem>
-                    {/* <Button.FakeLink>Reviews</Button.FakeLink> */}
+                    <Button.FakeLink>
+                      <a href="#marketingDigital">Marketing Digital</a>
+                    </Button.FakeLink>
                   </NavItem>
                   <NavItem>
-                    {/* <Button.FakeLink>Videos</Button.FakeLink> */}
+                    <Button.FakeLink>
+                      <a href="#equipe">Equipe</a>
+                    </Button.FakeLink>
+                  </NavItem>
+                  <NavItem>
+                    <Button.FakeLink>
+                      <a href="https://wa.me/5531989217467?text=Eu%20tenho%20interesse%20em%20fazer%20um%20orçamento%20com%20a%20NexTime.">
+                        Contato
+                      </a>
+                    </Button.FakeLink>
                   </NavItem>
                 </NavGroup>
               </nav>

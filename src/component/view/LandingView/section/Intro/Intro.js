@@ -187,7 +187,7 @@ class Intro extends React.Component {
               />
             </div>
           </div>
-          <Definition>
+          <Definition id="quemSomos">
             <Text size="22px" height="25px">
               Quem
             </Text>
@@ -240,6 +240,8 @@ class Intro extends React.Component {
               nossa missão de otimizar tarefas e assim entregarmos para mais
               negócios e pessoas, tempo.
             </p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
           </Content>
           <Hidable hideFor={device.below.tabletLandscape}>
             <Confetti
