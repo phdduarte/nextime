@@ -422,7 +422,7 @@ class Relationships extends React.Component {
           </SpacedContent>
         </Container>
 
-        <SleepIntro />
+        {/* <SleepIntro /> */}
       </RelationshipsSection>
     );
   }

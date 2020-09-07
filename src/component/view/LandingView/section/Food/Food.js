@@ -127,12 +127,12 @@ class Callout extends React.Component {
   render() {
     return (
       <div>
-        <CalloutBackground
+        {/* <CalloutBackground
           layout="fixed"
           src="/static/food/stat-bg.png"
           width="280"
           height="280"
-        />
+        /> */}
         <PositionObserver
           id="foodCalloutObserver"
           instersection-ratios="1"
@@ -143,7 +143,7 @@ class Callout extends React.Component {
           selector="#food-callout"
           transform="translateY(-60%)"
         />
-        <CalloutContent id="food-callout">
+        {/* <CalloutContent id="food-callout">
           <Text.Accent style={{fontSize: '120px'}}>55%</Text.Accent>
           <Text>
             percent of millennials who say convenience is a top driver when
@@ -157,7 +157,7 @@ class Callout extends React.Component {
               left: '-50%',
             }}
           />
-        </CalloutContent>
+        </CalloutContent> */}
       </div>
     );
   }
@@ -189,7 +189,7 @@ class Food extends React.Component {
                 src="/static/food/robot@2x.png"
                 hideFor={device.above.desktop}
               />
-              <FoodBurger />
+              {/* <FoodBurger /> */}
             </Grid.Col>
             <Grid.Col cols={8} colsAtTabletLandscape={12}>
               <MobilePadding>
@@ -351,46 +351,60 @@ class Food extends React.Component {
                 <LightboxLink
                   title="PEDRO"
                   bgColor="bilobaFlower"
-                  cardImgSrc="/static/food/bread_1@2x.png"
-                  cardImgWidth="429"
-                  cardImgHeight="320"
+                  cardImgSrc="/static/food/pedro.png"
+                  cardImgWidth="441"
+                  cardImgHeight="622"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  tortor justo, facilisis id lobortis ac, elementum et sem. Nam
-                  quis turpis eget ipsum fermentum malesuada. Praesent ante
-                  metus, dignissim ut ullamcorper vitae, lobortis in enim. Sed
-                  nec dapibus dui, eget lobortis enim. Suspendisse vehicula nunc
-                  ut ante consequat, at suscipit sapien volutpat. Donec sit amet
-                  ante ut tellus vulputate lobortis blandit mollis enim. Dat
-                  euismod, magna massa commodo dui, in convallis ipsum diam
-                  lobortis velit. Cras volutpat facilisis felis at volutpat.
+                  CEO (Chief Executive Officer) <br />
+                  Sabe o que eu adoro na minha vida? Eu sei qual é o meu PORQUÊ.
+                  Procuro me levantar todo dia para fazer alguma coisa que pode
+                  devolver às pessoas o seu bem mais precioso, o TEMPO. Acredito
+                  que pensando diferente conseguimos utilizar esse recurso
+                  finito de uma melhor forma. O mais interessante é que temos
+                  diferentes maneiras para conseguir devolver o tempo as pessoas
+                  e uma delas é utilizarmos a tecnologia. Por isso sou Bacharel
+                  em Ciência da Computação pela Universidade Federal de Ouro
+                  Preto — UFOP. Fui presidente da empresa júnior Voluta Soluções
+                  Digitais — UFOP. Presidente do Centro Acadêmico do Curso de
+                  Ciência da Computação — UFOP gestão 2013/14. Professor pelo
+                  programa PRONATEC e pela Let’s Code, escola de programação.
+                  Especialista AMP Cognizant/Google e desenvolvedor front-end na
+                  Toro Investimentos. Tenho muita sorte de ter trabalhado em
+                  lugares que me ajudaram e me ajudam nesse porquê.
                 </LightboxLink>
 
                 <LightboxLink
                   title="DANIEL"
                   bgColor="fountainBlue"
-                  cardImgSrc="/static/food/burger@2x.png"
-                  cardImgWidth="358"
-                  cardImgHeight="358"
+                  cardImgSrc="/static/food/daniel.png"
+                  cardImgWidth="441"
+                  cardImgHeight="622"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  tortor justo, facilisis id lobortis ac, elementum et sem. Nam
-                  quis turpis eget ipsum fermentum malesuada. Praesent ante
-                  metus, dignissim ut ullamcorper vitae, lobortis in enim. Sed
-                  nec dapibus dui, eget lobortis enim. Suspendisse vehicula nunc
-                  ut ante consequat, at suscipit sapien volutpat. Donec sit amet
-                  ante ut tellus vulputate lobortis blandit mollis enim. Dat
-                  euismod, magna massa commodo dui, in convallis ipsum diam
-                  lobortis velit. Cras volutpat facilisis felis at volutpat.
+                  CPO (Chief Product Officer)  <br />
+                  Graduado em ciência da computação pela Universidade Federal de
+                  Ouro Preto (UFOP). Fui tesoureiro do centro acadêmico de meu
+                  curso e exerci a função de Product Owner no laboratório
+                  TerraLAB que tem parceria com INPE e outra empresas da região.
+                  No terraLAB trabalhei com levantamento de requisitos, montagem
+                  de cenários de testes, histórias de usuário, priorização de
+                  backlog e elaboração da sprint backlog. Sou um profissional
+                  que através da minha criatividade busco sempre por inovação,
+                  quero a todo momento levar para a sociedade por meio da
+                  tecnologia soluções para com que as pessoas possam ter uma
+                  qualidade de vida cada vez melhor. A tecnologia está presente
+                  em nossas vidas desde a hora em que acordamos, então ela tem o
+                  poder de nos proporcionar melhorias a todo instante e é isso o
+                  que busco.
                 </LightboxLink>
 
                 <LightboxLink
                   title="LUIZ"
                   bgColor="magicMint"
-                  cardImgSrc="/static/food/tacos@2x.png"
-                  cardImgWidth="378"
-                  cardImgHeight="359"
+                  cardImgSrc="/static/food/luiz.png"
+                  cardImgWidth="441"
+                  cardImgHeight="622"
                 >
+                  CTO (Chief Technology Officer) <br />
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                   tortor justo, facilisis id lobortis ac, elementum et sem. Nam
                   quis turpis eget ipsum fermentum malesuada. Praesent ante
@@ -402,7 +416,7 @@ class Food extends React.Component {
                   lobortis velit. Cras volutpat facilisis felis at volutpat.
                 </LightboxLink>
 
-                <LightboxLink
+                {/* <LightboxLink
                   title="MAYRON"
                   bgColor="vividTangerine"
                   cardImgSrc="/static/food/sushi@2x.png"
@@ -454,7 +468,7 @@ class Food extends React.Component {
                   ante ut tellus vulputate lobortis blandit mollis enim. Dat
                   euismod, magna massa commodo dui, in convallis ipsum diam
                   lobortis velit. Cras volutpat facilisis felis at volutpat.
-                </LightboxLink>
+                </LightboxLink> */}
               </LightboxLinks>
             </SpacedContent>
           </Container>

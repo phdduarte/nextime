@@ -56,8 +56,8 @@ const CardShadow = styled.div`
 const Top = styled.div`
   width: 220px;
   height: 170px;
-  background-color: ${({theme, bgColor}) => theme.colors[bgColor]};
-  background-image: url(/static/food/inner_grain_crop@2x.png);
+  background-color: #2d426d;
+  background-image: url({cardImgSrc});
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,8 +96,7 @@ const LightboxContainer = styled.div`
 
 const BoxLeft = styled.div`
   width: 45%;
-  background-color: ${({theme, bgColor}) => theme.colors[bgColor]};
-  background-image: url(/static/food/inner_grain_crop@2x.png);
+  background-color: #2d426d;
   background-position: center 1px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +177,7 @@ class Lightbox extends React.Component {
                 width={this.props.cardImgWidth}
                 height={this.props.cardImgHeight}
               />
-              <Icons>
+              {/* <Icons>
                 <AmpSocialShare.Facebook
                   outline
                   width="56"
@@ -186,7 +185,7 @@ class Lightbox extends React.Component {
                   style={{marginRight: '10px'}}
                 />
                 <AmpSocialShare.Twitter outline width="56" height="56" />
-              </Icons>
+              </Icons> */}
             </BoxLeft>
             <BoxRight>
               <MobilePadding>
