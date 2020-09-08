@@ -242,7 +242,7 @@ class Education extends React.Component {
                         style={{bottom: 0, left: '33%'}}
                       />
                     </MainCircle>
-                    <Title id="amp">
+                    <Title id="pageAmp">
                       Criamos paginas
                       <br />
                       com AMP
