@@ -82,7 +82,7 @@ class Header extends React.Component {
                   </NavItem>
                   <NavItem>
                     <Button.FakeLink>
-                      <a href="#amp">AMP</a>
+                      <a href="#pageAmp">AMP</a>
                     </Button.FakeLink>
                   </NavItem>
                   <NavItem>
