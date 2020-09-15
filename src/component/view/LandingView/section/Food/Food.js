@@ -405,8 +405,22 @@ class Food extends React.Component {
                   cardImgHeight="622"
                 >
                   CTO (Chief Technology Officer) <br />
-                  Desenvolvedor full stack focado em arquitetura de softwares e
-                  programação mobile em flutter
+                  Poucas coisas me deixam mais empolgado do que a criação de
+                  algo novo, criar algo que facilite a vida das pessoas, que
+                  seja útil, e que as pessoas gostem, e como diria Carl Jung, “A
+                  criação de algo novo é consumado pelo intelecto, mas
+                  despertado pelo instinto de uma necessidade pessoal. A mente
+                  criativa age sobre algo que ela ama”. Buscando o intelecto me
+                  graduei na Universidade Federal de Ouro Preto — UFOP fazendo
+                  estágio na Fundação Gorceix por 1 ano, além disso fui monitor
+                  de programação e membro do centro acadêmico por 2 anos. Após
+                  graduado trabalhei na Fitec em um projeto internacional com
+                  milhares de desenvolvedores ao redor do mundo. Posteriormente
+                  trabalhei na Engineering em um projeto de auxílio no
+                  monitoramento de barragens para a Vale. Mesmo durante o
+                  trabalho, nunca parei de me divertir criando novas
+                  ferramentas, atualmente minha diversão é aplicações celulares
+                  multi-plataformas.
                 </LightboxLink>
 
                 {/* <LightboxLink
