@@ -1,6 +1,6 @@
 {
   "name": "amp-article",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "private": true,
   "scripts": {
     "dev": "nodemon -r @babel/register -w src/ src/server/index.js",
