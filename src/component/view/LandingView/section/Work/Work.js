@@ -26,7 +26,7 @@ const ImageCol = styled(Grid.Col)`
 class Work extends React.Component {
   render() {
     return (
-      <WorkSection id="otimizacao">
+      <WorkSection>
         <Container>
           <WorkGrid>
             <Grid.Col

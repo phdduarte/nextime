@@ -21,6 +21,7 @@ const Author = styled.div`
   text-align: center;
   opacity: 0.7;
   margin-bottom: 40px;
+  margin-top: 40px;
 `;
 const CalloutContainer = styled(Container)`
   margin-top: 500px;
@@ -111,7 +112,7 @@ class Intro extends React.Component {
   render() {
     return (
       <IntroSection>
-        <UltimateVideoContainer>
+        {/* <UltimateVideoContainer>
           <UltimateVideo
             autoplay=""
             id="bgVid"
@@ -124,9 +125,9 @@ class Intro extends React.Component {
               <p>This browser does not support the video element.</p>
             </div>
           </UltimateVideo>
-        </UltimateVideoContainer>
+        </UltimateVideoContainer> */}
         <Container>
-          <Author>Um novo tempo começa</Author>
+          <Author></Author>
           <Hero />
           <CalloutContainer>
             <Callout id="calloutFadeOut">
