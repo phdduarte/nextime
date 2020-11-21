@@ -21,6 +21,7 @@ const Author = styled.div`
   text-align: center;
   opacity: 0.7;
   margin-bottom: 40px;
+  margin-top: 40px;
 `;
 const CalloutContainer = styled(Container)`
   margin-top: 500px;
@@ -111,7 +112,7 @@ class Intro extends React.Component {
   render() {
     return (
       <IntroSection>
-        <UltimateVideoContainer>
+        {/* <UltimateVideoContainer>
           <UltimateVideo
             autoplay=""
             id="bgVid"
@@ -124,9 +125,9 @@ class Intro extends React.Component {
               <p>This browser does not support the video element.</p>
             </div>
           </UltimateVideo>
-        </UltimateVideoContainer>
+        </UltimateVideoContainer> */}
         <Container>
-          <Author>Um novo tempo começa</Author>
+          <Author></Author>
           <Hero />
           <CalloutContainer>
             <Callout id="calloutFadeOut">
@@ -223,12 +224,12 @@ class Intro extends React.Component {
             </p>
             <p>
               Contamos com especialistas no desenvolvimento de sistema web
-              utilizando as ferramentas mais modernas como REACTJS e AMP.
+              utilizando as ferramentas mais modernas.
             </p>
             <p>
               Oferecemos a solução completa para que você fique conectado com
               seus clientes à qualquer momento , desde a criação do app até a
-              publicação no Google Play e APP Store.
+              publicação.
             </p>
             <p>
               Adicionamos tecnologias de Inteligência Artificial e estratégias

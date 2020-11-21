@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import styled from 'styled-components';
 
 import {device} from '/util/device';
@@ -8,7 +9,9 @@ import Grid from '/component/base/Grid';
 import Button from '/component/base/Button';
 
 const TopContainer = styled(Container)`
-  margin-bottom: 140px;
+  padding-bottom: 40px;
+  width: 100vw;
+  background: #000;
   ${device.below.tabletLandscape`margin-bottom: 90px;`};
 `;
 const MobileHeaderContainer = styled.div`
@@ -18,6 +21,9 @@ const MobileHeaderContainer = styled.div`
 
 const HeaderContainer = styled.div`
   margin-top: 50px;
+  text-align: center;
+  z-index: 1;
+  top: 0;
   color: ${({theme}) => theme.colors.white};
 `;
 

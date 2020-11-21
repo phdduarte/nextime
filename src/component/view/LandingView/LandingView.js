@@ -15,7 +15,8 @@ import Comments from './section/Comments';
 import FloatingButtons from '/component/base/FloatingButtons';
 
 const Wrapper = styled.div`
-  max-width: 100vw;
+  width: 100%;
+  margin: 0 auto;
 `;
 
 class LandingView extends React.Component {
@@ -25,7 +26,7 @@ class LandingView extends React.Component {
         <Header />
         <Intro />
         <Education />
-        <Work />
+        <Work id="otimizacao"/>
         <Spending />
         <Relationships />
         {/* <Sleep /> */}
