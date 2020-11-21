@@ -223,12 +223,12 @@ class Intro extends React.Component {
             </p>
             <p>
               Contamos com especialistas no desenvolvimento de sistema web
-              utilizando as ferramentas mais modernas como REACTJS e AMP.
+              utilizando as ferramentas mais modernas.
             </p>
             <p>
               Oferecemos a solução completa para que você fique conectado com
               seus clientes à qualquer momento , desde a criação do app até a
-              publicação no Google Play e APP Store.
+              publicação.
             </p>
             <p>
               Adicionamos tecnologias de Inteligência Artificial e estratégias
